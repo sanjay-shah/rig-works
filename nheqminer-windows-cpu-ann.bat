@@ -1,0 +1,1 @@
+nheqminer.exe -l 91.121.77.102:3032 -u t1VkUxkjkqkFFLS2VCbNvZd1nsUr1pX3CLY -t 2

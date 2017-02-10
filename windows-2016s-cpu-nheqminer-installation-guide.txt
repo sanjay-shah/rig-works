@@ -1,0 +1,17 @@
+
+
+
+download --> 
+
+https://github.com/nicehash/nheqminer/releases/latest
+
+nheqminer_v0.4b.zip
+
+https://github.com/nicehash/nheqminer/releases
+
+
+download --> 
+
+http://developer.amd.com/tools-and-sdks/opencl-zone/amd-accelerated-parallel-processing-app-sdk/
+
+nheqminer.exe -l 91.121.77.102:3032 -u t1VkUxkjkqkFFLS2VCbNvZd1nsUr1pX3CLY -t 2
