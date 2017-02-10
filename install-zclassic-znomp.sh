@@ -130,6 +130,32 @@ sudo ufw allow 3036
 
 npm start
 
+#################################
+## START nginX INSTALLATION    ##
+#################################
+
+sudo apt-get install nginx -y
+sudo ufw allow 'Nginx Full'
+sudo vi /etc/nginx/sites-enabled/miningpool.io
+###############################
+# Enter the following content #
+###############################
+server {
+    listen 80;
+    server_name miningpool.io;
+    location / {
+        proxy_set_header   X-Real-IP $remote_addr;
+        proxy_set_header   Host      $http_host;
+        proxy_pass         http://127.0.0.1:8080;
+    }
+}
+#############################
+
+sudo rm -rf /etc/nginx/sites-available/
+
+sudo systemctl reload nginx
+
+
 
 
 
