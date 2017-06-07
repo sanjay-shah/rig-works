@@ -7,6 +7,8 @@ su - pooladmin
 mkdir ~/.ssh
 chmod 700 ~/.ssh
 
+echo @id_rsa.pub > ~/.ssh/authorized_keys
+
 ##############################
 #Replace /etc/ssh/sshd_config
 #
@@ -56,7 +58,7 @@ sudo apt-get -y update && \
 sudo apt-get -y upgrade && \
 sudo apt-get -y dist-upgrade 
 
-
+sudo apt autoremove
 
 #################################
 ## START Pretzo INSTALLATION   ##
