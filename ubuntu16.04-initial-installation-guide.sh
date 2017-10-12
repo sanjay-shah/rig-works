@@ -2,6 +2,8 @@
 scp ~/Downloads/amdgpu-pro-16.40-348864.tar.xz sanjay@192.168.0.109:/home/sanjay
 scp ~/Downloads/AMD-APP-SDKInstaller-v3.0.130.136-GA-linux64.tar.bz2 sanjay@192.168.0.109:/home/sanjay
 
+scp AMD-APP-SDKInstaller-v3.0.130.136-GA-linux64.tar.bz2 amdgpu-pro-16.40-348864.tar.xz claymore-v12.5.tar.gz claymore-eth-9.7.tar.gz snj@10.0.0.33:/home/snj
+
 #on the remote host
 
 sudo apt-get update

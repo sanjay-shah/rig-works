@@ -24,10 +24,8 @@ sudo ./AMD-APP-SDK-v3.0.130.136-GA-linux64.sh
 sudo usermod -a -G video $LOGNAME
 exit
 
-tar xf claymore-v12.4.tar.gz
-mv Claymore\'s\ ZCash\ AMD\ GPU\ Miner\ v12.4\ -\ LINUX/ claymore-v12.4
-vi claymore-v12.4/start-ml.sh
+tar xf claymore-v12.5.tar.gz
+mv Claymore\'s\ ZCash\ AMD\ GPU\ Miner\ v12.5\ -\ LINUX/ claymore-v12.5
+vi claymore-v12.5/start-ml.sh
 
 
-sudo apt-get install build-essential -y
-git clone https://github.com/mbevand/silentarmy.git && cd silentarmy && make

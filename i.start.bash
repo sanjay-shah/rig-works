@@ -1,0 +1,1 @@
+./ethdcrminer64 -mode 1 -epool http://107.170.193.26:8888/0x9fa71e5a6be3d492553a0451b4af5425cd1cc26a/i-rig1 -ewal 0x9fa71e5a6be3d492553a0451b4af5425cd1cc26a -epsw x -dpool stratum+tcp://dcr.suprnova.cc:3252 -dwal Redhex.my -dpsw x

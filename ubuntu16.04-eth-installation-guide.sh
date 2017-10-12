@@ -7,7 +7,7 @@ sudo add-apt-repository -y ppa:ethereum/ethereum
 
 sudo apt-get update -y
 
-sudo apt-get install git cmake libcryptopp-dev libleveldb-dev libjsoncpp-dev libjsonrpccpp-dev libboost-all-dev libgmp-dev libreadline-dev libcurl4-gnutls-dev ocl-icd-libopencl1 opencl-headers mesa-common-dev libmicrohttpd-dev build-essential -y
+sudo apt-get install git cmake libleveldb-dev libjsoncpp-dev libjsonrpccpp-dev libboost-all-dev libgmp-dev libreadline-dev libcurl4-gnutls-dev ocl-icd-libopencl1 opencl-headers mesa-common-dev libmicrohttpd-dev build-essential -y
 
 git clone https://github.com/Genoil/cpp-ethereum && cd cpp-ethereum/
 
